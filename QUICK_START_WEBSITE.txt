@@ -1,0 +1,52 @@
+═══════════════════════════════════════════════════════════════
+  QUICK START - See Website in Chrome
+═══════════════════════════════════════════════════════════════
+
+STEP 1: Install Essential Packages (if not done)
+───────────────────────────────────────────────────────────────
+
+Open PowerShell and run:
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+.\.venv\Scripts\python.exe -m pip install streamlit fastapi uvicorn requests Pillow python-multipart
+
+───────────────────────────────────────────────────────────────
+STEP 2: Start Backend (Terminal 1)
+───────────────────────────────────────────────────────────────
+
+Open PowerShell and run:
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+.\.venv\Scripts\python.exe backend/api.py
+
+Wait for: "INFO:     Uvicorn running on http://0.0.0.0:8000"
+
+───────────────────────────────────────────────────────────────
+STEP 3: Start Website (Terminal 2)
+───────────────────────────────────────────────────────────────
+
+Open NEW PowerShell and run:
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+.\.venv\Scripts\python.exe -m streamlit run app/app.py
+
+───────────────────────────────────────────────────────────────
+STEP 4: Open in Chrome
+───────────────────────────────────────────────────────────────
+
+The website will auto-open, OR manually open Chrome and go to:
+
+http://localhost:8501
+
+═══════════════════════════════════════════════════════════════
+ONE-LINE COMMANDS (Copy & Paste)
+═══════════════════════════════════════════════════════════════
+
+TERMINAL 1 (Backend):
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP; .\.venv\Scripts\python.exe backend/api.py
+
+TERMINAL 2 (Frontend):
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP; .\.venv\Scripts\python.exe -m streamlit run app/app.py
+
+═══════════════════════════════════════════════════════════════
+

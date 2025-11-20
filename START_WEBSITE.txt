@@ -1,0 +1,33 @@
+═══════════════════════════════════════════════════════════════
+  START WEBSITE - SUPER SIMPLE!
+═══════════════════════════════════════════════════════════════
+
+OPTION 1: Python Server (Easiest - Like npm run dev)
+───────────────────────────────────────────────────────────────
+
+Just run this ONE command:
+
+python start_website.py
+
+That's it! Website opens automatically at http://localhost:8501
+
+───────────────────────────────────────────────────────────────
+OPTION 2: Open HTML Directly
+───────────────────────────────────────────────────────────────
+
+Just double-click this file:
+website/index.html
+
+Or right-click → Open with → Chrome
+
+───────────────────────────────────────────────────────────────
+OPTION 3: Python HTTP Server (Manual)
+───────────────────────────────────────────────────────────────
+
+cd website
+python -m http.server 8501
+
+Then open: http://localhost:8501
+
+═══════════════════════════════════════════════════════════════
+

@@ -1,0 +1,20 @@
+========================================
+QUICK FIX: Start Frontend Server
+========================================
+
+You're already in the correct directory!
+
+Run this command:
+
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+$nodePath = (Get-Command node -ErrorAction SilentlyContinue).Source
+$npmPath = $nodePath -replace "node.exe", "npm.cmd"
+& $npmPath run dev
+
+OR simpler (if execution policy allows):
+npm.cmd run dev
+
+========================================
+The frontend server will start on port 8501
+========================================
+

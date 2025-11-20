@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+tmp_uploads/
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.safetensors
+kb_embeddings.json
+faiss.index
+*.log
+models/checkpoints/
+ml/embeddings/
+ml/reference_images/*.jpg
+ml/reference_images/*.png
+!ml/reference_images/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ML Models (large files)
+*.pkl
+*.joblib

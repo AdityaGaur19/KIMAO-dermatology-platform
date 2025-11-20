@@ -1,0 +1,17 @@
+═══════════════════════════════════════════════════════════════
+  START WEBSITE - COPY & PASTE THIS!
+═══════════════════════════════════════════════════════════════
+
+EASIEST WAY - Just run this:
+
+python start_website.py
+
+OR use the auto-start script:
+
+.\auto_start.ps1
+
+OR double-click:
+
+auto_start.bat
+
+═══════════════════════════════════════════════════════════════

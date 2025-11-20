@@ -1,0 +1,51 @@
+═══════════════════════════════════════════════════════════════
+  GEMINI API SETUP FOR CHATBOT
+═══════════════════════════════════════════════════════════════
+
+STEP 1: Get Your Gemini API Key
+───────────────────────────────────────────────────────────────
+1. Visit: https://makersuite.google.com/app/apikey
+2. Sign in with your Google account
+3. Click "Create API Key"
+4. Copy your API key
+
+STEP 2: Set the API Key
+───────────────────────────────────────────────────────────────
+
+Option A: PowerShell (Temporary - for this session)
+    $env:GEMINI_API_KEY = "your-api-key-here"
+
+Option B: Environment Variable (Permanent)
+    1. Open System Properties → Environment Variables
+    2. Add new User variable:
+       Name: GEMINI_API_KEY
+       Value: your-api-key-here
+
+Option C: Create .env file (in project root)
+    Create file: .env
+    Add line: GEMINI_API_KEY=your-api-key-here
+
+STEP 3: Start the Chatbot Backend
+───────────────────────────────────────────────────────────────
+
+PowerShell:
+    .\start_chatbot_backend.ps1
+
+Or Batch:
+    start_chatbot_backend.bat
+
+STEP 4: Start the Website
+───────────────────────────────────────────────────────────────
+
+In a new terminal:
+    python start_website.py
+
+Or use the all-in-one script:
+    .\start_all_with_chatbot.ps1
+
+═══════════════════════════════════════════════════════════════
+
+The chatbot will now use Gemini AI for intelligent responses!
+
+═══════════════════════════════════════════════════════════════
+

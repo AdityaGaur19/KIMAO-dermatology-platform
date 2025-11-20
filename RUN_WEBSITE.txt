@@ -1,0 +1,39 @@
+═══════════════════════════════════════════════════════════════
+  TERMINAL COMMANDS TO RUN THE WEBSITE
+═══════════════════════════════════════════════════════════════
+
+OPTION 1: Python Server (Easiest - Like npm run dev)
+───────────────────────────────────────────────────────────────
+
+Copy and paste this ONE command:
+
+python start_website.py
+
+That's it! Website opens at http://localhost:8501
+
+───────────────────────────────────────────────────────────────
+OPTION 2: Python HTTP Server (Manual)
+───────────────────────────────────────────────────────────────
+
+cd website
+python -m http.server 8501
+
+Then open: http://localhost:8501
+
+───────────────────────────────────────────────────────────────
+OPTION 3: Full Path (If not in project directory)
+───────────────────────────────────────────────────────────────
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+python start_website.py
+
+───────────────────────────────────────────────────────────────
+OPTION 4: Open HTML Directly (No Server)
+───────────────────────────────────────────────────────────────
+
+Just double-click this file:
+C:\DermaArcade\DermaArcade_Chatbot_MVP\website\index.html
+
+Or right-click → Open with → Chrome
+
+═══════════════════════════════════════════════════════════════

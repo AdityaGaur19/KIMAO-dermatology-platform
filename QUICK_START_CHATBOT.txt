@@ -1,0 +1,38 @@
+═══════════════════════════════════════════════════════════════
+  QUICK START - GEMINI CHATBOT
+═══════════════════════════════════════════════════════════════
+
+1. GET YOUR GEMINI API KEY
+───────────────────────────────────────────────────────────────
+   Visit: https://makersuite.google.com/app/apikey
+   Sign in → Create API Key → Copy it
+
+2. SET THE API KEY (Choose one method)
+───────────────────────────────────────────────────────────────
+
+   PowerShell (Temporary):
+      $env:GEMINI_API_KEY = "your-api-key-here"
+
+   Or set it permanently in Windows Environment Variables
+
+3. START THE CHATBOT BACKEND
+───────────────────────────────────────────────────────────────
+   PowerShell:
+      .\start_chatbot_backend.ps1
+
+   Or Batch:
+      start_chatbot_backend.bat
+
+4. START THE WEBSITE (in a new terminal)
+───────────────────────────────────────────────────────────────
+   python start_website.py
+
+   Or use all-in-one:
+      .\start_all_with_chatbot.ps1
+
+═══════════════════════════════════════════════════════════════
+
+The chatbot will now use Gemini AI for intelligent responses!
+
+═══════════════════════════════════════════════════════════════
+

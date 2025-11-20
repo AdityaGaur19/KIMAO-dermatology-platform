@@ -1,0 +1,45 @@
+═══════════════════════════════════════════════════════════════
+  FINAL COMMANDS TO START WEBSITE
+═══════════════════════════════════════════════════════════════
+
+STEP 1: Install Backend Dependencies
+───────────────────────────────────────────────────────────────
+
+Run this in PowerShell:
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+.\.venv\Scripts\python.exe -m pip install fastapi uvicorn python-multipart requests
+
+───────────────────────────────────────────────────────────────
+STEP 2: Start Backend (Terminal 1)
+───────────────────────────────────────────────────────────────
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+.\.venv\Scripts\python.exe backend/api.py
+
+Wait for: "INFO:     Uvicorn running on http://0.0.0.0:8000"
+
+───────────────────────────────────────────────────────────────
+STEP 3: Start Frontend (Terminal 2 - NEW WINDOW)
+───────────────────────────────────────────────────────────────
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+.\.venv\Scripts\python.exe -m streamlit run app/app.py
+
+───────────────────────────────────────────────────────────────
+STEP 4: Open Chrome
+───────────────────────────────────────────────────────────────
+
+Go to: http://localhost:8501
+
+═══════════════════════════════════════════════════════════════
+ALL-IN-ONE INSTALL COMMAND
+═══════════════════════════════════════════════════════════════
+
+Run this to install everything needed:
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+.\.venv\Scripts\python.exe -m pip install fastapi uvicorn python-multipart requests streamlit altair blinker cachetools click numpy packaging pandas pillow protobuf pydeck pympler rich toml tornado tzlocal watchdog gitpython typing-extensions tenacity
+
+═══════════════════════════════════════════════════════════════
+

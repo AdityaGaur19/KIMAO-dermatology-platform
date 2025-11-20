@@ -1,0 +1,48 @@
+========================================
+NEXT STEPS AFTER DOWNLOADING NODE.JS
+========================================
+
+STEP 1: INSTALL NODE.JS
+------------------------
+✓ You've downloaded Node.js
+→ Now RUN the installer (.msi file)
+→ Make sure "Add to PATH" is CHECKED
+→ Complete the installation
+
+STEP 2: RESTART TERMINAL
+-------------------------
+→ Close this PowerShell window
+→ Open a NEW PowerShell window
+→ Navigate to: cd DermaArcade\DermaArcade_Chatbot_MVP
+
+STEP 3: VERIFY INSTALLATION
+----------------------------
+Run these commands:
+  node --version
+  npm --version
+
+You should see version numbers.
+
+STEP 4: RUN THE APP
+--------------------
+Once Node.js is working, run:
+  .\start_both_servers.ps1
+
+The script will:
+- Install npm dependencies automatically
+- Start backend server (port 8000)
+- Start React frontend server (port 8501)
+
+========================================
+TROUBLESHOOTING
+========================================
+
+If "node" is still not recognized after installing:
+1. Make sure you RESTARTED the terminal
+2. Check if Node.js is installed:
+   - Look in: C:\Program Files\nodejs\
+   - If it exists, you may need to add it to PATH manually
+3. Or reinstall Node.js and make sure "Add to PATH" is checked
+
+========================================
+

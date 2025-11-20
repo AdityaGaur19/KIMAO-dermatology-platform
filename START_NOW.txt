@@ -1,0 +1,44 @@
+═══════════════════════════════════════════════════════════════
+  ✅ PACKAGES INSTALLED! Now Start the Website
+═══════════════════════════════════════════════════════════════
+
+STEP 1: Start Backend (Terminal 1)
+───────────────────────────────────────────────────────────────
+
+Open PowerShell and run:
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+.\.venv\Scripts\python.exe backend/api.py
+
+Wait for: "INFO:     Uvicorn running on http://0.0.0.0:8000"
+
+───────────────────────────────────────────────────────────────
+STEP 2: Start Website (Terminal 2)
+───────────────────────────────────────────────────────────────
+
+Open NEW PowerShell and run:
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+.\.venv\Scripts\python.exe -m streamlit run app/app.py
+
+───────────────────────────────────────────────────────────────
+STEP 3: Open in Chrome
+───────────────────────────────────────────────────────────────
+
+The website will automatically open at:
+http://localhost:8501
+
+Or manually open Chrome and go to: http://localhost:8501
+
+═══════════════════════════════════════════════════════════════
+ONE-LINE COMMANDS (Copy & Paste)
+═══════════════════════════════════════════════════════════════
+
+TERMINAL 1:
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP; .\.venv\Scripts\python.exe backend/api.py
+
+TERMINAL 2:
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP; .\.venv\Scripts\python.exe -m streamlit run app/app.py
+
+═══════════════════════════════════════════════════════════════
+

@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: kimao-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app/backend
+      - ./ml:/app/ml
+      - ./rag:/app/rag
+      - ./tmp_uploads:/app/tmp_uploads
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    command: python backend/api.py
+    restart: unless-stopped
+
+  frontend:
+    build: .
+    container_name: kimao-frontend
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app:/app/app
+      - ./static:/app/static
+    depends_on:
+      - backend
+    environment:
+      - API_URL=http://backend:8000
+    command: streamlit run app/app.py --server.port=8501 --server.address=0.0.0.0
+    restart: unless-stopped
+

@@ -1,0 +1,39 @@
+═══════════════════════════════════════════════════════════════
+  RUN STREAMLIT - Simple Commands
+═══════════════════════════════════════════════════════════════
+
+OPTION 1: Use Script (PowerShell)
+───────────────────────────────────────────────────────────────
+
+.\run_streamlit.ps1
+
+───────────────────────────────────────────────────────────────
+OPTION 2: Use Batch File (CMD)
+───────────────────────────────────────────────────────────────
+
+run_streamlit.bat
+
+───────────────────────────────────────────────────────────────
+OPTION 3: Manual Command (PowerShell)
+───────────────────────────────────────────────────────────────
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP
+.\.venv\Scripts\python.exe -m streamlit run app/app.py
+
+───────────────────────────────────────────────────────────────
+OPTION 4: Manual Command (One Line)
+───────────────────────────────────────────────────────────────
+
+cd C:\DermaArcade\DermaArcade_Chatbot_MVP; .\.venv\Scripts\python.exe -m streamlit run app/app.py
+
+───────────────────────────────────────────────────────────────
+After Running:
+───────────────────────────────────────────────────────────────
+
+The website will automatically open at:
+http://localhost:8501
+
+Or manually open Chrome and go to: http://localhost:8501
+
+═══════════════════════════════════════════════════════════════
+

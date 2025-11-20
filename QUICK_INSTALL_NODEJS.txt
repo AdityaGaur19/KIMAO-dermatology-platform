@@ -1,0 +1,55 @@
+========================================
+QUICK NODE.JS INSTALLATION GUIDE
+========================================
+
+Node.js is required to run the React frontend.
+
+STEP 1: Download Node.js
+-------------------------
+1. I've opened https://nodejs.org/ in your browser
+2. Click the green "LTS" button (recommended version)
+3. Download the Windows Installer (.msi)
+
+STEP 2: Install Node.js
+------------------------
+1. Run the downloaded .msi file
+2. Click "Next" through the installation wizard
+3. IMPORTANT: Make sure "Add to PATH" is CHECKED
+4. Click "Install" and wait for completion
+5. Click "Finish"
+
+STEP 3: Restart Terminal
+-------------------------
+1. Close this PowerShell window
+2. Open a NEW PowerShell window
+3. Navigate back to: cd DermaArcade\DermaArcade_Chatbot_MVP
+
+STEP 4: Verify Installation
+----------------------------
+Run these commands:
+  node --version
+  npm --version
+
+You should see version numbers (like v20.x.x and 10.x.x)
+
+STEP 5: Run the App
+--------------------
+Once Node.js is installed, run:
+  .\start_both_servers.ps1
+
+The script will automatically:
+- Install npm dependencies (first time)
+- Start the backend server
+- Start the React frontend server
+
+========================================
+ALTERNATIVE: Use Winget (if available)
+========================================
+
+If you have Windows Package Manager, you can install with:
+  winget install OpenJS.NodeJS.LTS
+
+Then restart your terminal and run the startup script.
+
+========================================
+

@@ -1,0 +1,30 @@
+========================================
+QUICK START FRONTEND SERVER
+========================================
+
+You're in C:\DermaArcade, so use this path:
+
+1. Navigate to the project:
+   cd DermaArcade_Chatbot_MVP
+
+2. Refresh PATH (if npm not found):
+   $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+
+3. Start the frontend:
+   npm run dev
+
+OR use the manual script:
+   .\start_frontend_manual.ps1
+
+========================================
+ALTERNATIVE: Restart PowerShell
+========================================
+
+If npm still not found:
+1. Close this PowerShell window
+2. Open a NEW PowerShell window
+3. Navigate: cd DermaArcade\DermaArcade_Chatbot_MVP
+4. Run: npm run dev
+
+========================================
+
