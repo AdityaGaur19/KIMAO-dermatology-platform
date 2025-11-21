@@ -1,4 +1,3 @@
-```markdown
 # 🌿✨ **KIMAO — AI Skincare Assistant** ✨🌿  
 ### **Next-Gen AI Dermatology • Real-Time Skin Insights • Modern Minimal UI**
 
@@ -147,4 +146,3 @@ Please:
 ### **KIMAO — The Future of AI Skincare.**
 
 </div>
-```
